@@ -1,0 +1,471 @@
+body  {
+  background-image: url("https://i.pinimg.com/originals/53/cf/64/53cf64dc8372271bcd8723c5f8973471.jpg");
+}
+
+img.rockso{
+  height:  100%;
+  width: 15%;
+  padding-right: 5%;
+}
+
+img.rocks{
+  height: 100%;
+  width: 15%;
+  padding-right: 5%;
+  transform: scaleX(-1);
+}
+
+img.x{
+  height: 90%;
+  width: 40%;
+}
+
+
+iframe.youtube{
+  width: 60vw;
+  height: 75vh;
+}
+
+
+.flex-container {
+  display: flex;
+  height: 311vh;
+  width: 95vw;
+  flex-wrap: wrap;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+    /*font-family: Garamond, serif*/
+   /* background-color: DodgerBlue; */
+}
+
+.flex-container2 {
+  display: flex;
+  height: 335vh;
+  width: 95vw;
+  flex-wrap: wrap;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+    /*font-family: Garamond, serif*/
+   /* background-color: DodgerBlue; */
+}
+
+.flex-container3 {
+  display: flex;
+  height: 240vh;
+  width: 95vw;
+  flex-wrap: wrap;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+    /*font-family: Garamond, serif*/
+   /* background-color: DodgerBlue; */
+}
+
+div.contone {
+    background: linear-gradient(to bottom left, #ffffff 0%, #fefefa 100%);
+  height: 25vh;
+  width: 98vw;
+  justify-content: center;
+  text-align: center;
+    overflow: hidden;
+}
+
+div.conttwo,div.contthr,div.contfou {
+  background: linear-gradient(to bottom left, #ffffff 0%, #fefefa 100%);
+  border: 0.1vmin solid white;
+  height: 9vh;
+  width: 31.34vw;
+  text-align: center;
+  font-size: 5vmin;
+  padding-top: 1%;
+  background: black;
+    overflow: hidden;
+      flex-wrap: nowrap;
+}
+
+div.conttwo:hover ,div.contthr:hover ,div.contfou:hover {
+    background: darkgrey;
+      overflow: hidden;
+}
+
+a{
+  color: white;
+}
+a:active {
+  color: #555555;
+}
+
+a.linktosite{
+    text-decoration-line: underline;
+  text-decoration-style: dotted;
+  color: black;
+}
+
+a.linktosite:hover {
+  color: #0000FF;
+}
+
+div.contfiv{
+    background: linear-gradient(to bottom left, #ffffff 0%, #fefefa 100%);
+  border: 1px solid white;
+  height: 275vh;
+  width: 98vw;
+  text-align: center;
+    overflow: hidden;
+}
+
+
+div.contfiv2{
+    background: linear-gradient(to bottom left, #ffffff 0%, #fefefa 100%);
+  border: 1px solid white;
+  height: 299vh;
+  width: 98vw;
+  text-align: center;
+    overflow: hidden;
+}
+
+div.contfiv3{
+    background: linear-gradient(to bottom left, #ffffff 0%, #fefefa 100%);
+  border: 1px solid white;
+  height: 205vh;
+  width: 98vw;
+  text-align: left;
+    overflow: hidden;
+}
+
+div.pageone1 {
+    background: linear-gradient(to bottom left, #ffffff 0%, #fefefa 100%);
+  height: 25vh;
+  width: 95vw;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+p.pageone1{
+  font-family: 'Metal Mania';
+  font-size: 20vmin;
+  font-weight: bold;
+  position:relative;  
+  top:-85%;
+  padding-bottom: 50%;
+
+}
+
+div.pageone2 {
+    background: linear-gradient(to bottom left, #ffffff 0%, #fefefa 100%);
+  height: 80vh;
+  width: 95vw;
+  justify-content: center;
+  text-align: center;
+    overflow: hidden;
+}
+
+div.pageone3 {
+    background: linear-gradient(to bottom left, #ffffff 0%, #fefefa 100%);
+  height: 145vh;
+  width: 95vw;
+  justify-content: center;
+  text-align: center;
+    overflow: hidden;
+}
+
+p.pageone3{
+    font-family: Helvetica;
+    margin-top: 3%;
+    margin-right: 5%;
+    margin-left: 5%;
+    word-wrap: break-word;
+    font-size: 7.5vmin;
+
+}
+
+div.pageone4 {
+    background: linear-gradient(to bottom left, #ffffff 0%, #fefefa 100%);
+  height: 25vh;
+  width: 95vw;
+  justify-content: center;
+  text-align: center;
+    overflow: hidden;
+}
+
+p.warning{
+    font-family: Helvetica;
+    color: red;
+    margin-right: 5%;
+    margin-left: 5%;
+    word-wrap: break-word;
+    font-size: 4vmin;
+
+}
+
+
+input.name{
+  font-family: Helvetica;
+  width: 45vw;
+  margin: 1%;
+  display: inline-block;
+  border-radius: 2%;
+  height: 15vh;
+  font-size: 6vmin;
+  box-sizing: border-box;
+}
+
+input.email{
+  font-family: Helvetica;
+  width: 90vw;
+  margin: 2%;
+  display: inline-block;
+  border-radius: 2%;
+  height: 15vh;
+  font-size: 6vmin;
+  box-sizing: border-box;
+}
+
+textarea.request{
+  font-family: Helvetica;
+  width: 90vw;
+  margin: 2%;
+  display: inline-block;
+  border-radius: 2%;
+  height: 60vh;
+  font-size: 6vmin;
+  box-sizing: border-box;
+}
+
+label.container{
+      font-family: Helvetica;
+      font-size: 6vmin;
+      display: inline-block;
+      margin-top: 1%;
+}
+
+input.jaden{  
+    margin-left: 10vmin;
+    margin-top: 5vmin;
+    height: 10vmin;
+    width: 10vmin;
+    position: relative;
+    top: -8%;
+    align-content: center;
+}
+
+
+
+div.pagetwo1 {
+    background: linear-gradient(to bottom left, #ffffff 0%, #fefefa 100%);
+  height: 10vh;
+  width: 95vw;
+  justify-content: center;
+  text-align: center;
+    overflow: hidden;
+      border: 1px solid black;
+
+}
+
+p.pagetwo1{
+  font-size: 9vmin;
+  position:relative;
+  top: -90%;
+  font-weight: bold;
+  font-family: Helvetica;
+}
+
+div.pagetwo2 {
+    background: linear-gradient(to bottom left, #ffffff 0%, #fefefa 100%);
+  height: 80vh;
+  width: 95vw;
+  justify-content: left;
+  text-align: left;
+    overflow: hidden;
+      border: 1px solid black;
+
+}
+
+
+div.pagetwo3 {
+    background: linear-gradient(to bottom left, #ffffff 0%, #fefefa 100%);
+  height: 10vh;
+  width: 95vw;
+  justify-content: center;
+  text-align: center;
+    overflow: hidden;
+      border: 1px solid black;
+
+}
+
+p.pagetwo3{
+  font-size: 9vmin;
+  position:relative;
+  top: -90%;
+  font-weight: bold;
+  font-family: Helvetica;
+
+}
+
+div.pagetwo4 {
+    background: linear-gradient(to bottom left, #ffffff 0%, #fefefa 100%);
+  height: 95vh;
+  width: 95vw;
+  justify-content: left;
+  text-align: left;
+    overflow: hidden;
+  border: 1px solid black;
+
+}
+
+
+
+div.pagetwo5 {
+    background: linear-gradient(to bottom left, #ffffff 0%, #fefefa 100%);
+  height: 10vh;
+  width: 95vw;
+  justify-content: center;
+  text-align: center;
+    overflow: hidden;
+      border: 1px solid black;
+
+}
+
+p.pagetwo5{
+  font-size: 9vmin;
+  position:relative;
+  top: -90%;
+  font-weight: bold;
+  font-family: Helvetica;
+}
+div.pagetwo6 {
+    background: linear-gradient(to bottom left, #ffffff 0%, #fefefa 100%);
+  height: 45vh;
+  width: 95vw;
+  justify-content: center;
+  text-align: center;
+    overflow: hidden;
+  border: 1px solid black;
+
+}
+
+
+
+
+div.pagetwo7 {
+    background: linear-gradient(to bottom left, #ffffff 0%, #fefefa 100%);
+  height: 20vh;
+  width: 95vw;
+  justify-content: center;
+  text-align: center;
+    overflow: hidden;
+  border: 1px solid black;
+
+}
+
+
+div.pagetwo8 {
+    background: linear-gradient(to bottom left, #ffffff 0%, #fefefa 100%);
+  height: 25vh;
+  width: 95vw;
+  justify-content: center;
+  text-align: center;
+    overflow: hidden;
+}
+
+button.purch{
+  margin-top: 4vmin;
+  font-size: 7vmin;
+  width: 40%;
+  height: 60%;
+}
+
+
+
+div.pagethree1 {
+    background: linear-gradient(to bottom left, #ffffff 0%, #fefefa 100%);
+  height: 10vh;
+  width: 95vw;
+  justify-content: center;
+  text-align: center;
+    overflow: hidden;
+      border: 1px solid black;
+
+}
+
+p.pagethree1{
+  font-size: 9vmin;
+  position:relative;
+  top: -90%;
+  font-weight: bold;
+  font-family: Helvetica;
+}
+
+div.pagethree2 {
+    background: linear-gradient(to bottom left, #ffffff 0%, #fefefa 100%);
+  height: 65vh;
+  width: 95vw;
+  justify-content: left;
+  text-align: left;
+    overflow: hidden;
+      border: 1px solid black;
+
+}
+
+p.pagethree2{
+  font-size: 7vmin;
+  font-family: Helvetica;
+  margin: 2%;
+}
+br.pagethree2{
+  font-size: 2vmin;
+}
+
+div.pagethree3 {
+    background: linear-gradient(to bottom left, #ffffff 0%, #fefefa 100%);
+  height: 10vh;
+  width: 95vw;
+  justify-content: center;
+  text-align: center;
+    overflow: hidden;
+      border: 1px solid black;
+
+}
+
+p.pagethree3{
+  font-size: 9vmin;
+  position:relative;
+  top: -90%;
+  font-weight: bold;
+  font-family: Helvetica;
+
+}
+
+div.pagethree4 {
+    background: linear-gradient(to bottom left, #ffffff 0%, #fefefa 100%);
+  height: 95vh;
+  width: 95vw;
+  justify-content: left;
+  text-align: left;
+    overflow: hidden;
+  border: 1px solid black;
+
+}
+
+
+div.pagethree5 {
+    background: linear-gradient(to bottom left, #ffffff 0%, #fefefa 100%);
+  height: 25vh;
+  width: 95vw;
+  justify-content: center;
+  text-align: center;
+    overflow: hidden;
+}
+
+button.purch2{
+  margin-top: 4vmin;
+  font-size: 7vmin;
+  width: 40%;
+  height: 60%;
+}
